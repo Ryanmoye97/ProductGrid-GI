@@ -1,0 +1,17 @@
+/* styling the product image and column */
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 50px; 
+    }
+    .product {
+    border: 1px solid #dddddd;
+    padding: 20px;
+    text-align: center;
+    }
+    
+    .product img {
+    width: 50px;
+    height: auto;
+    border-radius: 5px;
+    }
